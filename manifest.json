@@ -1,0 +1,13 @@
+{
+  "name": "AsanaDoc",
+  "version": "1.0",
+  "background": { "scripts": ["asanadoc.js"] },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "name": "AsanaDoc",
+    "icons": ["asana.png"]
+  },
+  "manifest_version": 2
+}
